@@ -1,0 +1,161 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.group:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+body {
+	background: #eeeeee;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5em;
+	font-size: 14px;
+}
+body ul li{
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 500;
+
+}
+
+a {
+	color: #00ade5;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+p {
+	font-size: 14px;
+	opacity: 0.7;
+}
+#social-icons{
+padding-right: 190px;
+}
+.social {
+	float: right;
+	padding-right: 20px;
+}
+
+#main-wrapper{
+	width: 960px;
+	margin: 0 auto; 
+	background: gray;
+}
+
+header {
+	background: white;
+	padding-top: 35px;
+}
+.logo a{
+	display: block;
+	width: 130px;
+	height: 60px;
+	background: url(images/logo.png);
+	background-repeat: no-repeat;
+	margin: 0 0 25px 20px;
+}
+
+.primary  {
+	background: #00ade5;
+
+}
+
+.primary ul li {
+	float: left;
+	border-right: 1px solid white;
+}
+
+.primary ul li a{
+	display: block;
+	padding: 15px 60px;
+	color: white;
+	text-decoration: none;
+}
+.primary ul li a:hover{
+	background: #0295b7;
+}
+
+.content-wrap {
+	background: #eeeeee;
+	float: left;
+}
+
+#main-content {
+	background: #ffffff;
+	float: left;
+	width: 660px;
+	padding: 40px 20px;
+}
+.thumbnail {
+	float: left;
+	margin-right: 20px;
+}
+.posts{
+	clear: right;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.posts h2 a{
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.posts h2 a:hover{
+	color: #0295b7;
+}
+
+.posts p{
+	padding: 10px 0 20px 0;
+}
+
+.posts div{
+	overflow: hidden;
+}
+
+.posts .more{
+	text-decoration: none;
+	font-weight: 400;
+}
+aside {
+	padding: 20px 40px;
+	width: 300px;
+	background: #eeeeee;
+	float: right;
+	
+}
+.side-box {
+	margin-bottom: 40px;
+}
+
+.buscar {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #bbbbbb;
+}
+.side-box h2{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+
+
+footer {
+	clear: both;
+	background: #263238;
+	height: 50px;
+}
+footer small{
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 50px;
+}
