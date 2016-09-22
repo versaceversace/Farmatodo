@@ -3,9 +3,14 @@
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 			<title>Farmatodo</title>
-		<link rel="stylesheet" href="css/reset.css" type="text/css" />
-			<link rel="stylesheet" href="style.css" type="text/css" />
 
+			<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+			<link rel="stylesheet" href="css/reset.css" type="text/css" />
+			<link rel="stylesheet" href="style.css" type="text/css" />
+			<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+<!-- aviso de que el sitio esta optimizado para los tlfs -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 
 	</head>
@@ -28,48 +33,50 @@
 			<img src="images/logo.png" alt="" /></a></h1>
 
 	<nav class="primary group">
+			<div class="row">
 		<ul>
-			<li><a href="#">Salud</a></li>
-			<li><a href="#">Belleza</a></li>
-			<li><a href="#">Hogar</a></li>
-			<li><a href="#">Marca Farmatodo</a></li>
-			<li><a href="#">Contáctanos</a></li>
+			<div class="col s12 m6 l3"><a href="#">Salud</a></div>
+			<div class="col s12 m6 l3"><a href="#">Belleza</a></div>
+			<div class="col s12 m6 l3"><a href="#">Hogar</a></div>
+			<div class="col s12 m6 l3"><a href="#">Marca Farmatodo</a></div>
+
 		</ul>
+	</div>
 	</nav>
 
 		</header>
 
 	<div class="content-wrap group">
 		<section id="main-content">
-		<a href ="posts/1stblogpost.html"><img class="thumbnail"  src="images/1stblogpost.jpg" alt="thumbnail"/></a>
+<!-- materialize --> <div class="card-panel hoverable">	<a href ="posts/1stblogpost.html"><img class="thumbnail"  src="images/1stblogpost.jpg" alt="thumbnail"/></a>
 		<article class="posts group">
 			<div>
 			<h2><a href="posts/1stblogpost.html" title="">Cuidado del cutis seco</h2></a>
 		<p>Las pieles secas suelen ser Más finas por lo que deben cuidarse muy especialmente, sabes como proteger la tuya?</p>
 
 		<a class="more" href="posts/1stblogpost.html" title="readmore">Leer Más  >>> </a>
-		</article>
+	</article></div>
 
-		<a href="posts/2ndblogpost.html"><img class="thumbnail" src="images/2ndblogpost.jpg" alt="thumbnail"/></a>
+	<!-- materialize -->	<div class="card-panel hoverable"><a href="posts/2ndblogpost.html"><img class="thumbnail" src="images/2ndblogpost.jpg" alt="thumbnail"/></a>
 		<article class="posts group">
 			<h2><a href="posts/2ndblogpost.html" title="">Mantenlo en su sitio</h2></a>
 		<p>Existen muchas maneras de tener un closet muy ordenado; solo se necesita de tiempo para lograr arreglarlo segun el gusto de ca...</p>
 		<a class="more" href="posts/2ndblogpost.html" title="readmore">Leer Más  >>> </a>
-		</article>
+	</article></div>
 
-		<a href="posts/3rdblogpost.html"><img class="thumbnail" src="images/3rdblogpost.jpg" alt="thumbnail"/></a>
+	<!-- materialize -->	<div class="card-panel hoverable"> <a href="posts/3rdblogpost.html"><img class="thumbnail" src="images/3rdblogpost.jpg" alt="thumbnail"/></a>
 		<article class="posts group">
 			<h2><a href="posts/3rdblogpost.html" title="">Resfriado en el embarazo</h2></a>
 		<p>Las precauciones que se deben tener para el cuidado de la salud son muy importantes, sobre todo cuando el sistema inmunologico decae</p>
 		<a class="more" href="posts/3rdblogpost.html" title="readmore">Leer Más  >>> </a>
-		</article>
+	</article></div>
 
-		<a href="posts/4thblogpost.html"><img class="thumbnail" src="images/4thblogpost.jpg" alt="thumbnail"/></a>
+	<!-- materialize --> <div class="card-panel hoverable">	<a href="posts/4thblogpost.html"><img class="thumbnail" src="images/4thblogpost.jpg" alt="thumbnail"/></a>
 		<article class="posts group">
 			<h2><a href="posts/4thblogpost.html" title="">Como actuar frente a una rabieta</h2></a>
 		<p>Llora, te mira, patalea y se tira al piso. Aprende a lidiar con esos momentos terribles que solo demuestran la desilusion del chico por algo no conseguido</p>
 		<a class="more" href="posts/4thblogpost.html" title="readmore">Leer Más  >>> </a>
-		</article>
+	</article></div>
 
 		</div>
 
@@ -103,7 +110,7 @@
 	</div>
 
 	<script src="js/jquery.js"></script>
-	<script src="js/ripple.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
 
 	</body>
 	</html>
